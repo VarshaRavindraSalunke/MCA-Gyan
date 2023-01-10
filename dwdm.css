@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -76,46 +75,8 @@ ul {
 }
 
 /* HERO01 */
-
-.subject {
-  height: 200px;
-  width: 250px;
-  /* border: 1px solid red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 0 20px 30px 10px #dbe4ff;
-  border-radius: 12px;
+/* pdf */
+.pdf {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.frame1 {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 50px;
-  column-gap: 35px;
-  margin: 5px;
-  padding: 60px 20px;
-}
-
-.btn:link,
-.btn:visited {
-  background-color: #364fc7;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 500;
-  display: inline-block;
-  border-radius: 100px;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: #d3dbf9;
-}
-
-.btn--big {
-  font-size: 18px;
-  padding: 16px 32px;
-}
-
-
