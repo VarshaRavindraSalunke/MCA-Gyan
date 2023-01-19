@@ -57,6 +57,201 @@
           />.
         </div>
       </div>
+
+      <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<%@taglib prefix="tile" uri="http://tiles.apache.org/tags-tiles"%>
+
+<h3 class="text-white">Cloud Computing</h3>
+<hr>
+<h6>
+<mark>1. Cloud Services and Cloud Models</mark>
+</h6>
+<li class="text-info text-bold">Cloud Computing ?</li>
+<pre>
+Cloud Computing is the delivery of computing services -
+including(such as) servers, storage, databases, networking, software, analytics, intelligence, and more, 
+over the Cloud (Internet).
+to offer faster innovation, flexible resources, and economies of scale.
+</pre>
+<li class="text-info text-bold">why Cloud Computing ?</li>
+<pre>
+We can take any required services on rent. 
+The cloud computing services will be charged based on usage.
+</pre>
+
+<li class="text-info text-bold">Where is cloud computing used?</li>
+<pre>
+Cloud Computing refers to the delivery of on-demand computing services over the Internet on an as-needed basis. 
+It allows businesses to rent access to computing services 
+like servers, storage, databases, analytics, networking, software, and intelligence, typically over the Internet.
+</pre>
+<li class="text-info text-bold">cloud service providers(examples of public cloud platforms ) </li>
+<ol class="text-danger">
+<li>AWS</li><li>Microsoft Azure</li><li>IBM cloud</li>
+<li>Google Cloud Platform</li><li>vmWare</li>
+</ol>
+
+<li class="text-info text-bold">Advantages of cloud<br>
+<a class="text-warning text-bold" target="_blank" href="https://www.javatpoint.com/advantages-and-disadvantages-of-cloud-computing">
+https://www.javatpoint.com/advantages-and-disadvantages-of-cloud-computing </a>
+</li>
+
+<li class="text-info text-bold">Types of Cloud Computing</li>
+<table class="table table-bordered">
+<tr>
+	<th>Public Cloud:</th>
+</tr>
+</table>
+
+<li class="text-info text-bold">Types of Cloud Services (Service Model of Cloud Computing)</li>
+<table class="table table-bordered">
+<tr>
+<th></th><th>SaaS</th><th>PaaS</th><th>Iass</th>
+</tr>
+<tr>
+	<td>Stands for</td>
+	<td>Software as a Service</td>
+	<td>Platform as a Service</td>
+	<td>Infrastructure as a Service</td>
+</tr>
+<tr>
+	<td></td>
+	<td>It provides a centrally hosted and managed software services to the end-users.</td>
+	<td>This service provides an on-demand environment for developing, testing, delivering, and managing software applications.</td>
+	<td>In IaaS, we can rent IT infrastructures like servers and virtual machines (VMs), storage, networks, operating systems from a cloud service vendor.</td>
+</tr>
+<tr>
+	<td>Uses</td>
+	<td>SAAS is used by the end user.</td>
+	<td>PAAS is used by developers.</td>
+	<td>IAAS is used by network architects.</td>
+</tr>
+<tr>
+	<td>Access</td>
+	<td>SAAS gives access to the end user.</td>
+	<td>PAAS gives access to run time environment to deployment and development tools for application.</td>
+	<td>IAAS gives access to the resources like virtual machines and virtual storage.</td>
+</tr>
+<tr>
+	<td>Model</td>
+	<td>It is a service model in cloud computing that hosts software to make it available to clients.</td>
+	<td>It is a cloud computing model that delivers tools that are used for the development of applications.</td>
+	<td>It is a service model that provides virtualized computing resources over the internet.</td>
+</tr>
+<tr>
+	<td>Technical understanding.</td>
+	<td>There is no requirement about technicalities company handles everything.</td>
+	<td>Some knowledge is required for the basic setup.</td>
+	<td>It requires technical knowledge.</td>
+</tr>
+<tr>
+	<td>Popularity</td>
+	<td>It is popular among consumers and companies, such as file sharing, email, and networking.</td>
+	<td>It is popular among developers who focus on the development of apps and scripts.</td>
+	<td>It is popular among developers and researchers.</td>
+</tr>
+<tr>
+	<td>Cloud services</td>
+	<td>MS Office web, Facebook and Google Apps.</td>
+	<td>Facebook, and Google search engine.</td>
+	<td>Amazon Web Services, sun, vCloud Express.</td>
+</tr>
+<tr>
+	<td>Enterprise services.</td>
+	<td>IBM cloud analysis.</td>
+	<td>Microsoft Azure.</td>
+	<td>AWS virtual private cloud.</td>
+</tr>
+<tr>
+	<td>Outsourced cloud services.</td>
+	<td>AWS, Terremark</td>
+	<td>Force.com, Gigaspaces.</td>
+	<td>Salesforce</td>
+</tr>
+<tr>
+	<td>User Controls</td>
+	<td>Nothing <sub>Dis-Loss of control</sub></td>
+	<td>Data of the application</td>
+	<td>Operating System, Runtime, Middleware, and Application data</td>
+</tr>
+<tr>
+	<td>used to</td>
+	<td>minimize the operational cost</td>
+	<td>develop software for internal use or offered for sale.</td>
+	<td>for backing up, storing, and recovering data and helps manage fluctuating storage needs.</td>
+</tr>
+<tr>
+	<td>Advantages</td>
+	<td>It can be easily accessed through a browser along a thin client.</td>
+	<td>
+		<ol>
+			<li>Reduced expenses for creating, testing and launching apps</li>
+			<li>Allows for easy migrating to the hybrid cloud</li>
+		</ol>
+	</td>
+	<td>for backing up, storing, and recovering data and helps manage fluctuating storage needs.</td>
+</tr>
+<tr>
+	<td>Disadvantages</td>
+	<td>
+	<ol>
+		<li>Data security issues</li>
+	</ol>
+	</td>
+	<td>
+		<ol>
+			<li>Reduced expenses for creating, testing and launching apps</li>
+			<li>Allows for easy migrating to the hybrid cloud</li>
+		</ol>
+	</td>
+	<td>develop software for internal use or offered for sale.</td>
+</tr>
+<tr>
+	<td>When to Use</td>
+	<td>
+	<ol>
+	<li>For applications that need both web and mobile access</li>
+	<li>If your company needs to launch a ready-made software quickly</li>
+	</ol>
+	</td>
+	<td>
+		<ol>
+			<li>Multiple developers work on one project</li>
+			<li>You want to create your own customized apps</li>
+		</ol>
+	</td>
+	<td>develop software for internal use or offered for sale.</td>
+</tr>
+<tr>
+	<td>Advantages</td>
+	<td>
+	<ol><li>No hardware costs.</li><li>Accessible from any location</li></ol>
+	</td>
+	<td>develop software for internal use or offered for sale.</td>
+	<td>z</td>
+</tr>
+<tr>
+	<td>Key Features</td>
+	<td>
+	<ol>
+		<li>No need to download, install or upgrade software</li>
+		<li>Apps are accessible from any connected device</li>
+		<li>The provider is responsible for everything</li>
+	</ol>
+	</td>
+	<td>
+	<ol>
+		<li>Multiple users can access the same app in development</li>
+		<li>Allows for developing, testing and hosting apps in the same environment</li>
+	</ol>
+	</td>
+	<td></td>
+</tr>
+</table>
+
     </section>
     <footer class="top-banner">
       <div class="container">
